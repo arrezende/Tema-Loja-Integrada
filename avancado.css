@@ -1,0 +1,776 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.7px;
+}
+.conteiner-principal .conteiner{box-shadow:none;}
+.top .span12{width:100%}
+.lista-redes ul li{border:none}
+.botao.principal{
+ 	border:0;
+    text-shadow:none;
+    background-image:none;
+    
+}
+.bandeiras-produto span{
+    border: 0;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 5px; 
+    font-weight:bold;
+}
+
+.bandeira-promocao{background:#7e0400}
+.adicionado-carrinho.bandeira-carrinho{display:none !important}
+/* RETIRADO */
+
+.barra-inicial,.pagina-carrinho .top {
+  display: none !important
+}
+
+.categoria-id-1440531{display:none}
+/* END RETIRADO */
+
+/* barra topo */
+.menu__top{float:left; margin:0 0 0 5%}
+.top, #barraTopo {
+    background-image: url(https://cdn.awsli.com.br/65/65131/arquivos/bgbarratopo2.png) !important;
+    background-size: contain !important; 
+}
+.lista-redes{
+    margin-top: 12px;
+}
+.lista-redes a i {
+    background-color: transparent !important;
+}
+
+.lista-redes a:hover i {
+    background-color: transparent;
+    color: #FFF;
+}
+.lista-redes a i.icon-facebook:before{
+    content: url('https://cdn.awsli.com.br/65/65131/arquivos/ico-fb.png'); 
+}
+.lista-redes a i.icon-instagram:before{
+    content: url('https://cdn.awsli.com.br/65/65131/arquivos/ico-inst.png'); 
+}
+.lista-redes a i.icon-instagram{background:none}
+
+#login_acesso .btn-group .dropdown-toggle {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+}
+
+#login_acesso .btn-group .dropdown-menu {
+  display: none
+}
+
+#login_acesso .dropdown-menu li {
+  display: block;
+  text-align: left
+}
+
+#barraTopo{height: 54px;}
+#barraTopo .conteiner{
+ 	margin:0 auto;
+    padding:0;
+    
+}
+#barraTopo .span3:first-child{
+    width:110px;
+    margin-top: 8px;
+}
+
+#barraTopo .busca{
+ 	margin-top: 10px;   
+}
+
+#barraTopo h4 a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#barraTopo .span3{width: 31.623931623931625%;}
+#barraTopo .canais-contato ul{display:none}
+#barraTopo .canais-contato:before{
+ 	content:url('https://cdn.awsli.com.br/420/420509/arquivos/dadosTopo2.png');
+    display:block;
+}
+#barraTopo .busca.borda-alpha input{border-radius:0}
+#barraTopo .carrinho{
+ 	border: none;
+    width: 210px;
+    float: right;
+    background: #fff;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    padding: 16px 5px;
+    text-align: center;
+    height: 28px
+}
+
+#barraTopo .carrinho .qtd-carrinho{
+	position: absolute;
+    left: 34px;
+    margin: 0;
+    top: 19px;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    height: 26px;
+
+}
+#barraTopo .icon-shopping-cart{
+    position: absolute;
+    left: 34px;
+}
+#barraTopo .icon-shopping-cart::before {
+    content: url('https://cdn.awsli.com.br/420/420509/arquivos/sacola.png');
+}
+
+#barraTopo .carrinho.vazio > a span.vazio-text{
+	display:block;
+    font-size:1rem;
+    margin-right: 29px;
+	margin-top: -3px;
+}
+
+#barraTopo .carrinho > a span {
+	display: block;
+    float: right;
+    position: relative;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    font-weight: 500;
+}
+
+#barraTopo .carrinho > a span.vazio-text {
+	display:none;
+}
+
+/*NOVO TOPO*/
+
+#login_acesso {
+  display: inline-block;
+  background: white;
+  padding: 5px 19px 5px 40px;
+  float: right;
+  margin-right: 25px;
+}
+
+#login_acesso a.bem-vindo.cor-secundaria {
+  background: url('https://cdn.awsli.com.br/65/65131/arquivos/ico-man.png') left 12px no-repeat;
+  font-size: 0px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 0.8rem 1.5rem;
+}
+
+#login_acesso a.bem-vindo.cor-secundaria span {
+  display: none;
+}
+
+#login_acesso a.bem-vindo.cor-secundaria:before {
+    content: 'login | cadastre-se';
+    font-size: 15px;
+    color: #2db5b6;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+}
+
+#login_acesso a.bem-vindo.cor-secundaria:hover:before {
+  color: #e09d46;
+}
+
+#login_acesso .bem-vindo span {
+  font-size: 0;
+}
+
+#login_acesso .bem-vindo {
+  font-size: 1rem;
+  font-weight: 300;
+}
+/*END NOVO TOPO*/
+
+.logo a img{margin:0}
+.conteudo-topo{margin-left: 80px;}
+.busca{padding:0;max-width: 87%;}
+.busca.borda-alpha{border-color:#000;}
+.busca.borda-alpha input{outline: none; border: 0;background: #eee;font-size: 11px;}
+
+.busca.borda-alpha .botao-busca{    
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+	border: 0;
+    background: #000;
+    border-radius: 0;
+    padding: 0;
+    height: 29px;
+}
+.conteudo-topo .inferior .span4, .conteudo-topo .superior .span4{
+ width: 24.624%;
+ float: right;      
+}
+.icon-search:before{
+    content: '';
+    background-image: url(https://cdn.awsli.com.br/65/65131/arquivos/ico-search.png);
+    background-size:30px 25px;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+}  
+    
+.icon-shopping-cart{
+    background:#fff;
+}
+.icon-shopping-cart:before{
+ content:url('https://cdn.awsli.com.br/65/65131/arquivos/ico-sacola.png');   
+}
+
+.carrinho{
+    border:none;
+    width: 80px;
+    float: right;
+}
+
+.carrinho span{display:none}
+.carrinho>a i{background:none}
+.carrinho.vazio>a span{
+    display:none;
+    font-size:0;
+}
+.carrinho .qtd-carrinho{
+    display: block !important;
+    background: url(https://cdn.awsli.com.br/65/65131/arquivos/ico-circ.png);
+    border-radius: 100%;
+    width: 26px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-position-x: 0;
+    background-position-y: 6px;
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    font-weight: 600;
+}
+
+.carrinho-interno > div > span{
+ display:block;   
+}
+.carrinho-interno .carrinho-rodape .icon-shopping-cart:before, #barraTopo .carrinho-interno .carrinho-rodape .icon-shopping-cart:before{
+   content:initial;
+}
+
+.meuspedidos{
+    float: left;
+    margin-top: 5px;
+}
+.meuspedidos .icon-list, .meuspedidos .icon-atacado{
+     background:#fff;
+     float: left;
+}
+.meuspedidos a{
+    margin-top: 2px;
+    display: block;
+    float: left;
+    margin-left: 7px;
+	font-size: 1rem;
+	letter-spacing: -1px;
+}
+.meuspedidos .icon-list:before{
+    content:url('https://cdn.awsli.com.br/65/65131/arquivos/meuspedidos.png');
+}
+
+.meuspedidos .icon-atacado::before {
+    content: url('https://cdn.awsli.com.br/420/420509/arquivos/atacado.png');
+}
+
+/* MENU */
+.menu.superior{
+    background:#000;
+    padding: 6px 0;
+    
+}
+.menu.superior{padding:0}
+.menu.superior .nivel-um{padding-top:5px}
+.menu.superior .nivel-um>li, .menu.superior .nivel-um>li:hover{border-top:0; margin-top: 0;}
+.menu.superior .nivel-um>li{text-transform:uppercase;}
+.menu a{ color:#fff}
+.menu.superior .titulo{margin: 6px 0; color: #fff;font-weight: 700;}
+.menu li { padding: 0 24px;}
+/*icones do menu */
+
+.icone-home a:before{
+    content: url('https://cdn.awsli.com.br/420/420509/arquivos/ico-casa.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    
+}
+.categoria-id-1437566 a:before{
+    content: '';
+    background: url('https://cdn.awsli.com.br/420/420509/arquivos/ico-brincos.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.categoria-id-1437567 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-colares.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+
+}
+
+.categoria-id-1437569 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-pulseiras.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+
+}
+.categoria-id-1437571 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-aneis.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+.categoria-id-1437572 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-japamalas.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.categoria-id-1437576 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-calcados.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+
+.categoria-id-1437577 a:before{
+    content: '';
+    background:url('https://cdn.awsli.com.br/420/420509/arquivos/ico-sale.png');
+    margin-top: 5px;
+    display: block;
+    float: left;
+    padding-right: 10px;
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+}
+/* Banner FULL */
+
+
+.flex-direction-nav a {
+    width: 29px;
+    height: 48px;
+    margin-top: -15px;
+    background: url('https://cdn.awsli.com.br/420/420509/arquivos/setas-banner.png') no-repeat 0 2px;
+    text-indent: -99999px;
+}
+
+
+/*Vitrine Lançamento */
+.vitrine-lancamento{
+    border-top: 0;
+	border-bottom-color: #818181;
+	border-bottom-width: 1px;
+	border-style: solid;
+}
+
+.vitrine-lancamento strong{font-size:0px}
+.vitrine-lancamento strong:before{
+    content: url('https://cdn.awsli.com.br/420/420509/arquivos/novidades-home.png');
+    font-size:15px;
+    color:#000;
+}
+.listagem .titulo-categoria:hover{
+ 	background:#fff;
+	padding-left: 0px;
+}
+
+.listagem .info-produto{text-align:center}
+.listagem .info-produto .nome-produto{
+ 	font-size: 20px;
+	font-weight: bold;
+    color:#000;
+}
+
+.listagem .listagem-linha li{border:none}
+
+.listagem-item .acoes-produto,.listagem-item:hover .acoes-produto {
+    bottom: 0;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    border: 0;
+}
+
+.listagem .produtos-carrossel .listagem-linha li .listagem-item, .listagem-item{
+ 	height: 350px;   
+}
+
+.listagem .produtos-carrossel .listagem-linha li .listagem-item .botao-comprar i{
+ 	display:none;   
+}
+.listagem .produtos-carrossel .listagem-linha li .listagem-item .botao-comprar, .listagem-item .botao.principal{
+    border: none;
+    border-radius: 0;
+    background-image: none;
+    width: 110px;
+    font-weight: bold;
+    text-shadow: none;
+    font-size: 16px;
+    
+}
+
+/*MEIO HOME*/
+
+.secao-secundaria .titulo-categoria img{
+ 	padding-bottom: 15px;
+	padding-top: 40px;   
+    
+}
+
+#barraNewsletter .componente .texto-newsletter{
+ 	font-size:0px;
+    float: left;
+}
+
+#barraNewsletter .componente .texto-newsletter:before{
+    content: '';
+    background-image: url('https://cdn.awsli.com.br/420/420509/arquivos/txt-news.png');
+    width: 680px;
+    height: 27px;
+    display: block;
+    margin-top: 6px;
+}
+
+#barraNewsletter .componente div.newsletter-cadastro, #barraNewsletter .componente .newsletter-confirmacao{
+    background: #fff;
+    padding: 5px;
+}   
+#barraNewsletter .componente div.newsletter-cadastro input{
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+#barraNewsletter .componente .botao{
+    border: 0;
+    text-shadow: none;
+    background-image: none;
+    border-radius: 0;   
+}
+
+/*Rodape*/
+
+#rodape .titulo{
+   font-size: 15px;
+   font-weight: bold;
+   border: 0;
+   margin: 0;
+   text-transform: uppercase;
+}
+
+.links-rodape ul li{
+    list-style: none;
+    font-size: 15px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sobreRodape img{
+    margin: 13px auto;
+    display: block;   
+}
+
+.sobreRodape p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.redesRodape ul li{
+    float:left;
+	display: block;
+	padding: 0 5px;
+}
+
+.redesRodape ul li [class^="icon-"]:before{
+    font-size: 30px;
+    
+}
+
+/*Pagina Interna Produto */
+
+.atributos ul li a, .atributos ul li a:hover, .atributos ul li.active a{
+    box-shadow: none;
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+    margin:0;
+}
+
+.atributo-cor .atributo-item,.atributo-cor .atributo-item:hover, .atributo-cor li.active .atributo-item{
+ border:0;   
+}
+
+.acoes-produto .preco-produto strong{
+    font-size: 30px !important;
+    color: #000;
+    font-weight: bold;
+}
+
+.pagina-produto .comprar .icon-shopping-cart:before{content:'';}
+.pagina-produto .produto .acoes-produto .comprar {
+    text-align: center;
+    float: none;
+    clear: both;
+    width: 100%;
+}
+.pagina-produto .produto .acoes-produto .comprar a{
+    width: 100%;
+    background: #4ec56d;
+    border-bottom: #39a052;
+    border-style: solid;   
+}
+
+.produto .nome-produto{color:#000}
+.cep label{
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: unset;   
+}
+.cep .input-append.input-prepend input{
+    border: #000;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+}   
+    
+#formCalcularCep .btn{
+    border-color: #000;
+    border-radius: 0;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    text-shadow: unset;
+}
+
+/* Vitrine Categorias */
+.breadcrumbs ul li *{
+    font-size: 12px;
+    
+}
+.breadcrumbs .cor-secundaria{color:#2db5b6}
+
+.coluna > div{margin-bottom:0}
+.coluna .menu .nivel-dois, .coluna .menu .nivel-tres, .coluna .menu.lateral .nivel-um > li > a{box-shadow: unset;}
+
+.coluna .title, .filtro h4{ 
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: #cacaca;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+    display: block;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color:#535353;
+}
+
+.coluna .menu.lateral li a:before{content:''; background:none;display: none;}
+
+.conteudo h1{text-transform: uppercase;}
+.listagem-item .botao-comprar i{display:none}
+
+.listagem-item .produto-avise {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    top: auto;
+    bottom: 0;
+}
+
+.filtro-coluna .borda-principal{ border:0; box-shadow: unset;padding-left: 0;}
+.atributos .atributo-cor a{border: 0;}
+.atributos .atributo-cor ul{margin-left: 17px !important;}
+.filtro.lista ul, .filtro.lista ul li{border:0}
+.filtro.lista ul a{color:#535353}
+.filtro.lista ul a label{font-size:14px;margin-left: 10px;}
+.menu.lateral .titulo{margin:0;text-transform: uppercase;}
+.menu.lateral li:first-child{margin-top:20px}
+
+
+/*Cadastro, Carrinho, Checkout*/
+.cadastro, .finalizar-compra{margin: 0 73px;}
+.cadastro .cabecalho-interno .titulo, .finalizar-compra .cabecalho-interno .titulo{text-transform: uppercase;}
+.cadastro fieldset{border:0}
+
+.tabela-carrinho .preco-produto .preco-promocional{color:#000;font-size: 20px;font-weight: bold;}
+.subtotal strong, .total strong{color:#000}
+.finalizar-compra .botao.principal, .carrinho-checkout .botao.principal{
+    background: #4ec56d;
+	border-bottom: #39a052;
+	border-style: solid;
+    
+}
+.carrinho-checkout .icone-box{border:0;border-width: 0 !important;}
+.carrinho-checkout .icone-box i:before{color:#2db5b6}
+.carrinho-checkout .atendimento li .display-table{font-size: 15px;}
+.carrinho-checkout .icon-comment::before {    content: "\f003";
+}
+
+/*Pagina institucional */
+.pagina-pagina h1{color:#2db5b6;font-weight: bold;}
+
+/*Popup*/
+
+#modalNewsletter .componente {background: url(https://cdn.awsli.com.br/420/420509/arquivos/bgpopup.jpg); width: 682px; height: 458px;}
+div.fancybox-skin {padding: 0px !important;}
+div.fancybox-wrap.fancybox-desktop.fancybox-type-html.modal-modalNewsletter.fancybox-opened {width: 682px !important; height: 458px !important;left: 50% !important;margin-left: -290px !important;}
+div.fancybox-inner {width: auto !important; height: auto !important;}
+
+#modalNewsletter .componente .titulo, #modalNewsletter .componente .texto-newsletter{display:none}
+#modalNewsletter .componente .interno{
+    bottom: 60px;
+    position: absolute;
+    right: 30px;
+    width: 335px;
+}
+#modalNewsletter .newsletter-cadastro input{border-radius:0}
+#modalNewsletter .newsletter .botao{background:#000; padding-bottom: 6px;padding-top: 7px; border-radius:0}
+#modalNewsletter .newsletter .botao:before{content:'ENVIAR';font-weight: bold;font-family: 'Open Sans', sans-serif;}
+/*Responsivo*/
+@media only screen and (max-width: 768px) {
+    .top{display:none}
+    .icon-shopping-cart:before{content: "\f07a";}
+    #cabecalho .atalhos-mobile li.fundo-principal, .icon-shopping-cart{background: initial;}
+    .atalhos-mobile.visible-phone.fundo-secundario.borda-principal{
+      background: #2db5b6;
+    }
+    #login_acesso{    padding: 5px 12px 5px 35px;}
+    #barraTopo .span3:first-child, #barraTopo .canais-contato{
+    	display:none;   
+        
+    }
+    
+    #barraTopo .busca {
+    	margin-top: 10px;
+    	position: absolute;
+    	left: 11px;
+	}
+    #barraTopo .carrinho {
+        border: none;
+        width: 210px;
+        float: right;
+        background: #fff;
+        margin: 0;
+        position: absolute;
+        top: -5px;
+        padding: 16px 5px;
+        text-align: center;
+        height: 28px;
+    	right: 12px;
+    }
+    
+    #barraTopo .carrinho span b:before {
+     content:'';   
+    }
+    .categoria-id-1437566 a:before, .categoria-id-1437567 a:before, .categoria-id-1437569 a:before, .categoria-id-1437571 a:before, .categoria-id-1437572 a:before, .categoria-id-1437576 a:before, .categoria-id-1437577 a:before  {
+     display:none;   
+        
+    }
+    .listagem .listagem-item .acoes-produto-responsiva{
+         bottom: 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;   
+        top: initial;
+    }
+    .acoes-produto-responsiva .tag-comprar i{display:none}
+    
+}
+
+@media only screen and (max-width: 980px) {
+    .top .span12{width:100%}
+    .menu__top{width:60%; margin: 8px 5px 0px 5px;}
+    .menu.superior .titulo{font-size:10px}
+}
+@media only screen and (max-width: 1024px) {
+    #login_acesso {
+    	display: inline-block;
+    	background: white;
+    	padding: 5px 1px 5px 20px;
+    	float: right;
+    	margin-right: 0px;
+	}
+    .menu__top {
+    	float: left;
+    	margin: 0 0 0 4%;
+	}
+    .menu.superior li {
+    	padding: 0 15px;
+	}
+    .meuspedidos a {
+        font-size: 13px;   
+    }
+    .listas-redes{margin-left:5px}
+    /*icones menu*/
+    .categoria-id-1437566 a:before, .categoria-id-1437567 a:before, .categoria-id-1437569 a:before, .categoria-id-1437571 a:before, .categoria-id-1437572 a:before, .categoria-id-1437576 a:before, .categoria-id-1437577 a:before  {
+        
+        padding-right: 0px;
+        width: 24px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: 16px;
+	}
+    
+    .categoria-id-1437576 a:before, .categoria-id-1437569 a:before{
+        background-size: 30px;
+        margin-top: 10px;
+        width: 36px;
+    }
+	
+}
